@@ -74,39 +74,8 @@ app.get('/categories', (req, res)=> {
     res.json(categories)
 })
 
-let projects = [
-      {
-        "name": "a",
-        "budget": "1",
-        "cost": 0,
-        "services": [],
-        "category": {
-          "name": "Infra",
-          "id": 0
-        },
-        "id": 1
-      },
-      {
-        "name": "a2",
-        "budget": "2",
-        "cost": 0,
-        "services": [],
-        "category": {
-          "name": "Infra",
-          "id": 0
-        },
-        "id": 2
-      }
-    ];
+let projects = [];
 
-
-/*projectsDB.findOne({
-where: {
-    username: 'admin'
-}
-}).then((user) => {
-    projects = user.projects;
-})*/
 
 app.get('/projects', (req, res)=> {
     res.json(projects)
