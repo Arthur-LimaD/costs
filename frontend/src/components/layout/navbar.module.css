@@ -1,0 +1,32 @@
+.navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    background-color: rgb(49, 48, 51);
+    color: white;
+}
+.navtitle{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlinks{
+    display: flex;
+    width: 30vw;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navlinks li{
+    list-style-type: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+.navlinks li a:hover{
+    color: #F9B938;
+}

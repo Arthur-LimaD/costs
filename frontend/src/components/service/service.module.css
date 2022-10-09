@@ -1,0 +1,7 @@
+.service_card{
+    width: 80vw;
+    height: auto;
+    text-align: center;
+    border: 1px solid #777;
+    margin: 2em 0em;
+}

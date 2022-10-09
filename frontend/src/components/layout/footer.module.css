@@ -1,0 +1,26 @@
+.footer{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(56, 47, 65);
+    color: white;
+    font-weight: 500
+}
+.footer ul{
+    display: flex;
+    width: 150px;
+    justify-content: space-evenly;
+}
+.footer ul li {
+    list-style-type: none;
+    color: white;
+}
+.footer ul li a, ::marker{
+    color: white;
+}
+.footer h5{
+    color: #F9B938
+}

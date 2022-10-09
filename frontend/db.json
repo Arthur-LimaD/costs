@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "name": "a",
+      "budget": "2",
+      "cost": 0,
+      "services": [],
+      "category": {
+        "name": "Infra",
+        "id": 0
+      },
+      "id": 1
+    },
+    {
+      "name": "a2",
+      "budget": "3",
+      "cost": 0,
+      "services": [],
+      "category": {
+        "name": "Infra",
+        "id": 0
+      },
+      "id": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Marketing"
+    },
+    {
+      "id": 3,
+      "name": "Development"
+    },
+    {
+      "id": 4,
+      "name": "Design"
+    },
+    {
+      "id": 5,
+      "name": "Planing"
+    }
+  ]
+}

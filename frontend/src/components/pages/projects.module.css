@@ -1,0 +1,18 @@
+.container{
+    padding: 2em;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-bottom: 2em;
+}
+.no_project{
+    margin: 0 auto;
+    display: flex;
+    width: 100vw;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
